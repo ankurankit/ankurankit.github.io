@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Artist</title>
+<style>
+#cen {
+	position:absolute;
+	left:170px;
+	top:120px;
+}
+#text {
+	position:absolute;
+	left:900px;
+	top:200px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+h1.p_left {
+	position:relative;
+	left:-40px;
+}
+h2.p_right {
+	position:relative;
+	left:0px;
+	top:-30px;
+}
+#fix {
+	position: fixed;
+	width:150%;
+	top:0px;
+	text-height:auto;  
+    z-index: 100;  
+    border-top: 0;
+	background-color:#E8E6E6;
+	color:hsla(0,1%,32%,1.00);
+	font-size:50px;
+}
+#nfix {
+	position:absolute;
+	top:40px;
+	left:3px;
+}
+#other2 {
+	position:absolute;
+	top:3200px;
+	font-size:45px;
+	font-style:italic;
+	left:400px;
+	font-weight:bold;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+#other {
+	position:absolute;
+	top:3258px;
+	left:402px;
+	font-size:20px;
+	font-weight:bold;
+	color:hsla(0,7%,51%,1.00);
+}
+#other3 {
+	position:absolute;
+	top:3280px;
+	left:398px;
+}
+#other4 {
+	position:absolute;
+	top:3410px;
+	left:398px;
+}
+#pos1 {
+	position:absolute;
+	top:650px;
+	left:600px;
+}
+#pos2 {
+	position:absolute;
+	top:650px;
+	left:100px;
+}
+#pos3 {
+	position:absolute;
+	top:650px;
+	left:300px;
+	font-style:italic;
+	font-weight:bold;
+}
+#big {
+	font-size:70px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+#pos4 {
+	position:absolute;
+	top:1050px;
+	left:300px;
+}
+#pos5 {
+	position:absolute;
+	top:1050px;
+	left:650px;
+}
+#pos6 {
+	position:absolute;
+	top:1100px;
+	left:730px;
+	font-style:italic;
+	font-weight:bold;
+}
+#pos7 {
+	position:absolute;
+	top:1500px;
+	left:410px;
+	font-style:italic;
+	font-weight:bold;
+	color:white;
+}
+#pos8 {
+	position:absolute;
+	top:1450px;
+	left:370px;
+}
+#pos9 {
+	position:absolute;
+	left:150px;
+	top:1800px;
+}
+#pos10 {
+	position:absolute;
+	top:1830px;
+	left:550px;
+	font-style:italic;
+	font-weight:bold;
+}
+#pos11 {
+	position:absolute;
+	top:1780px;
+	left:850px;
+}
+#pos12 {
+	position:absolute;
+	top:2200px;
+	left:150px;
+}
+#pos13 {
+	position:absolute;
+	top:2230px;
+	left:530px;
+}
+#pos14 {
+	position:absolute;
+	top:2200px;
+	left:890px;
+}
+#pos15 {
+	position:absolute;
+	top:2650px;
+	left:150px;
+}
+#pos16 {
+	position:absolute;
+	top:2600px;
+	left:530px;
+}
+#pos17 {
+	position:absolute;
+	top:2650px;
+	left:920px;
+}
+#bpos1 {
+	position:absolute;
+	left:350px;
+	top:50px;
+}
+#bpos2 {
+	position:absolute;
+	left:500px;
+	top:50px;
+}
+#bpos3 {
+	position:absolute;
+	left:650px;
+	top:50px;
+}
+#bpos4 {
+	position:absolute;
+	left:800px;
+	top:50px;
+}
+#bpos5 {
+	position:absolute;
+	left:950px;
+	top:50px;
+}
+#bpos6 {
+	position:absolute;
+	left:350px;
+	top:250px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:36px;
+	color:hsla(0,7%,51%,1.00);
+}
+#bpos7 {
+	position:absolute;
+	left:350px;
+	top:300px;
+	color:hsla(0,7%,51%,1.00);
+}
+#big1 {
+	font-size:80px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#bigg {
+	font-size:50px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+#bottom {
+	position:absolute;
+	top:3600px;
+	width:100%;
+	height:400px;
+	background-color:black;
+}
+#bottom2 {
+	position:absolute;
+	top:4000px;
+	width:100%;
+	height:100px;
+	background-color:#E8E6E6;
+	color:hsla(0,7%,51%,1.00);
+}
+#bottom3 {
+	position:absolute;
+	top:40px;
+	left:350px;
+}
+.effect .mask {
+   opacity: 1;
+}
+.effect:hover .mask {
+   opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body bgcolor="#E8E6E6" bottommargin="0" leftmargin="0" rightmargin="0" topmargin="0">
+<pre>
+<h1 class="p_left"><div id="fix">   Mark Fiennman</h1></div>
+<h2 class="p_right" style="color:hsla(0,1%,32%,1.00);"><div id="nfix">    Artist</h2></div></pre>
+<div id="cen"><img src="images/140603_yrcryinal-original.jpg" height="500px">
+</div><pre>
+<div id="text"><h3>The Artist</h3>
+The purpose of ART is washing the
+dust of daily life off our
+souls. Afterall this world is nothing
+but a canvas to our imagination.
+</pre></div>
+<div id="pos1"><div class="view effect"><div class="mask">
+<a href="images/tumblr_lztn7aUPop1qcncteo1_1280.jpg">
+<img src="images/tumblr_lztn7aUPop1qcncteo1_1280.jpg" height="400px" width="500px">
+</a>
+</div></div></div>
+<div id="pos2">
+<div class="view effect"><div class="mask">
+<img src="images/gray_grid.jpg" height="400px" width="500px">
+</div></div></div>
+<pre><div id="pos3"><div id="big">Berlin
+2015</div>
+<h2>Latest Exhibition
+March 2015
+Berlin</h2></div></pre>
+<div id="pos4">
+<div class="view effect"><div class="mask">
+<a href="images/art-exhibition48843n.jpg.png">
+<img src="images/art-exhibition48843n.jpg.png" height="300px" width="350px">
+</a>
+</div></div></div>
+<div id="pos5"><a href="" style="text-decoration:none; color:white;">
+<div class="view effect"><div class="mask">
+<img src="images/orange_3.jpg" height="300px" width="350px">
+</div></div></div>
+<div id="pos6"><pre><div id="bigg">Gallery</div>
+<h2>Check out
+My finest work</h2></a>
+</pre></div>
+<div id="pos8">
+<div class="view effect"><div class="mask">
+<img src="images/Pink-Background-Images-4.jpg" height="300px" width="560px">
+</div></div></div>
+<pre><div id="pos7"><div id="bigg">New works update</div>
+<h2>Stay connected with me
+To get all the updates
+</h2></pre></div>
+<div id="pos9">
+<iframe width="320px" height="280px" src="video/jsdfbdhsbfhdsbbfdsj.3gp" frameborder="0">
+</iframe></div>
+<div id="pos10"><pre><div id="big1">Works</div>
+<h2>Latest Exhibition</h2>
+</pre></div>
+<div id="pos11">
+<div class="view effect"><div class="mask">
+<a href="images/Shape-Changing-Lamps-with-rotating-lamp-shades-by-NistorNistor-image-1.jpg">
+<img src="images/Shape-Changing-Lamps-with-rotating-lamp-shades-by-NistorNistor-image-1.jpg" width="380px" height="350px">
+</a>
+</div></div></div>
+<div id="pos12">
+<div class="view effect"><div class="mask">
+<a href="images/tumblr_lto7iftBdN1qj5yp1.jpg">
+<img src="images/tumblr_lto7iftBdN1qj5yp1.jpg" width="300px" height="330px">
+</a>
+</div></div></div>
+<div id="pos13">
+<div class="view effect"><div class="mask">
+<a href="images/190277152975881850kD31N4ofc.jpg">
+<img src="images/190277152975881850kD31N4ofc.jpg" width="290px" height="280px">
+</a>
+</div></div></div>
+<div id="pos14">
+<div class="view effect"><div class="mask">
+<a href="images/inv2.jpg">
+<img src="images/inv2.jpg" width="340px" height="330px">
+</a>
+</div></div></div>
+<div id="pos15">
+<div class="view effect"><div class="mask">
+<a href="images/The Desert.jpg">
+<img src="images/The Desert.jpg" width="340px" height="300px">
+</a>
+</div></div></div>
+<div id="pos16">
+<div class="view effect"><div class="mask">
+<a href="images/yahoo-exhibition-abstract-oil-paintings.70162519.jpg">
+<img src="images/yahoo-exhibition-abstract-oil-paintings.70162519.jpg" width="350px" height="349px">
+</a>
+</div></div></div>
+<div id="pos17">
+<div class="view effect"><div class="mask">
+<a href="images/Sid-Vicious-001.jpg">
+<img src="images/Sid-Vicious-001.jpg" width="310px" height="300px">
+</a>
+</div></div></div>
+<hr style="color:hsla(356,6%,51%,1.00); position:absolute; top:3100px; width:100%">
+<pre><div id="other2">Say Hello</div>
+<div id="other">Connect with me for my latest works.</div>
+</pre></div>
+<div id="other3">
+<form action="" method="post">
+<table>
+<tr>
+<td><input type="text" name="name" size="70" placeholder="   Name" style="background-color:black; height:35px; color:hsla(0,7%,51%,1.00); border-width:0"/></td>
+</tr>
+<tr>
+<td><input type="numbers" name="phone" size="70" placeholder="   Phone" style="background-color:black; height:35px; color:hsla(0,7%,51%,1.00); border-width:0"/></td>
+</tr>
+<tr>
+<td><input type="text" name="message" size="70" placeholder="   Message" style="background-color:black; height:35px; color:hsla(0,7%,51%,1.00); border-width:0"/></td>
+</tr>
+</table>
+</form>
+</div>
+<div id="other4"><a href="">
+<img src="images/button-send-hi.png" width="150px" height="60px"></a></div>
+<div id="bottom">
+<a href=""><div id="bpos1"><img src="images/huidsfbibd.jpg" width="40px" height="40px"></div></a>
+<a href=""><div id="bpos2"><img src="images/sndjkbnf.jpg" width="40px" height="40px"></div></a>
+<a href=""><div id="bpos3"><img src="images/fdnsiidf.jpg" width="40px" height="40px"></div></a>
+<a href=""><div id="bpos4"><img src="images/usdhbdshc.jpg" width="40px" height="40px"></div></a>
+<a href=""><div id="bpos5"><img src="images/dsbfhbsdfisdh.jpg" width="40px" height="40px"></div></a>
+<div id="bpos6">Mark Fienmann</div>
+<div id="bpos7"><pre>99 1st Street New York, NY 30003
+Telephone:(111)111-1111
+</pre></div>
+</div>
+<div id="bottom2"><div id="bottom3">
+All rights for the amazing pictures reserved to Laaba House
+</div></div>
+</body>
+</html>
